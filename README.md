@@ -1,5 +1,6 @@
 # Perception-Examination Guided Progressive Learning for Scribble-Supervised Main Coronary Vessel Segmentation from X-ray Angiography Images
-Progressive Segmentation of the Main Coronary Artery Based on Scribble Annotations
+Progressive Segmentation of the Main Coronary Artery Based on Scribble Annotations.
+
 Accurate segmentation of major coronary arteries from X-ray angiography (XRA) images is essential for the clinical diagnosis of coronary artery disease and the planning of interventional treatments. Although deep learning has advanced vessel segmentation techniques considerably, existing methods remain highly dependent on pixel-level annotations, which are both time‑consuming and labor‑intensive to obtain. Doodle‑supervised learning offers a promising alternative by markedly reducing annotation costs; however, current doodle‑based approaches often suffer from boundary discontinuities and prediction inconsistencies due to sparse supervision and label variability. To overcome these limitations, we propose a Perception–Inspection–Guided Progressive Learning (PEPL) framework, which is inspired by the annotation and inspection patterns of human annotators, for major coronary vessel segmentation under doodle supervision. Extensive experiments on five public XRA datasets demonstrate that PEPL consistently outperforms thirteen existing doodle‑supervised methods.
 
 The code will be released in stages after the paper is accepted.
